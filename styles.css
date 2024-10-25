@@ -369,7 +369,30 @@
   .social-icon:hover {
     transform: scale(1.1);
   }
-  
+  .services-heading {
+    text-align: center; /* Center the heading */
+    margin: 40px 0; /* Add margin for spacing */
+    position: relative; /* Allow for pseudo-element positioning */
+}
+
+.services-heading .h4 {
+    font-size: 2rem; /* Increase font size */
+    font-weight: bold; /* Make the font bold */
+    color: #333; /* Dark color for better contrast */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 2px; /* Add space between letters */
+}
+
+/* Optional: Add a decorative line beneath the heading */
+.services-heading::after {
+    content: ''; /* Create a pseudo-element */
+    display: block; /* Make it a block element */
+    width: 50px; /* Set width */
+    height: 4px; /* Set height */
+    background-color: #007bff; /* Primary color for the line */
+    margin: 10px auto; /* Center align the line */
+}
+
 
   
   
