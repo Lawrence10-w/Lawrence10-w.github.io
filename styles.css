@@ -1,0 +1,375 @@
+/* Custom styles for LawreTech Solutions */
+.hero-section {
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQGhbKEvaWZyBg/article-cover_image-shrink_720_1280/0/1693215554687?e=2147483647&v=beta&t=ROQgoILrNpT9kR9CYULHyyYUKXvY671f-qS2P8IXW1o'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+  
+  .hero-content {
+    z-index: 1;
+    max-width: 800px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  
+  /* Button styles */
+  .cta-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Container styling to add spacing and center the carousel */
+.carousel-container {
+    margin: 50px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Carousel image adjustments */
+  .carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  /* Adjust caption placement and styling */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .carousel-caption h5 {
+    color: #fff;
+    font-size: 1.75rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-caption p {
+    color: #f1f1f1;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Carousel controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #555;
+  }
+  
+  /* Indicator dots custom style */
+  .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    background-color: #555;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.8;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+  }
+
+  /* Styles for social media icons */
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin-bottom: 20px; /* Space below icons */
+}
+
+.icon {
+    width: 60px; /* Icon size */
+    height: 60px; /* Icon size */
+    transition: transform 0.3s; /* Animation on hover */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Scale up on hover */
+}
+/* General styles for the navbar */
+.navbar {
+    background-color: #f8f9fa; /* Light background */
+    padding: 15px; /* Padding for better spacing */
+}
+
+/* Logo styling */
+.logo {
+    width: 50px; /* Logo size */
+    height: 50px; /* Logo size */
+    margin-right: 10px; /* Space between logo and text */
+    border-radius: 50%; /* Circular logo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+    font-weight: bold; /* Bold text for brand */
+    font-size: 1.5rem; /* Larger font size */
+}
+
+/* Navbar link styles */
+.nav-link {
+    color: #007bff; /* Link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    background-color: #ffffff; /* White background for dropdown */
+}
+
+.dropdown-item {
+    color: #212529; /* Dark text color */
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* Search input styles */
+.form-control {
+    border: 1px solid #ced4da; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.btn-outline-success {
+    border-color: #28a745; /* Button border color */
+    color: #28a745; /* Button text color */
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745; /* Button background color on hover */
+    color: white; /* Button text color on hover */
+}
+
+/* Responsive navbar */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 10px; /* Less padding on mobile */
+    }
+}
+
+/* Wrapper for content alignment */
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  /* Card section */
+  .card-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .card {
+    background-color: #f8f9fa;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+  }
+  
+  .card-subtitle {
+    color: #6c757d;
+  }
+  
+  .card-link {
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .card-link:hover {
+    color: #0056b3;
+  }
+  
+  /* Image section */
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Pagination styles */
+  .pagination-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .page-link {
+    color: #007bff;
+    transition: background-color 0.3s;
+  }
+  
+  .page-link:hover {
+    background-color: #f1f1f1;
+    border-color: #dee2e6;
+  }
+  
+  /* Business Card Styles */
+.business-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 30px auto;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  .card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .company-logo {
+    width: 80px;
+    margin-top: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #343a40;
+    margin-top: 15px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .services-list h6 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .services-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services-list li {
+    color: #5a5a5a;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  .contact-button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-footer {
+    font-size: 0.85rem;
+    color: #6c757d;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+
+/* Social Media Links */
+.social-media-links {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    margin: 0 10px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1);
+  }
+  
+
+  
+  
