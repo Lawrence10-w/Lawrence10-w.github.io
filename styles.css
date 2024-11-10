@@ -1,6 +1,6 @@
 /* Custom styles for LawreTech Solutions */
 .hero-section {
-    background-image: url('https://media.licdn.com/dms/image/D4D12AQGhbKEvaWZyBg/article-cover_image-shrink_720_1280/0/1693215554687?e=2147483647&v=beta&t=ROQgoILrNpT9kR9CYULHyyYUKXvY671f-qS2P8IXW1o'); /* Replace with actual image */
+    background-image: url('https://th.bing.com/th/id/OIP.L4sd2hmq3NwWxq_T-Xm0rwHaFj?rs=1&pid=ImgDetMain'); /* Replace with actual image */
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -392,6 +392,50 @@
     background-color: #007bff; /* Primary color for the line */
     margin: 10px auto; /* Center align the line */
 }
+
+
+/* styles.css */
+
+/* Card styling for larger screens */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+/* Image container to handle responsive behavior */
+.card-img-container {
+  flex: 1 0 150px;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Spacing adjustments for buttons */
+.card .btn {
+  margin-top: 10px;
+}
+
+/* Responsive alignment for reverse cards on larger screens */
+@media (min-width: 768px) {
+  .card.flex-md-row {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .card-img-container {
+      padding: 0 15px;
+  }
+}
+
 
 
   
